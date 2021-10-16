@@ -1,0 +1,22 @@
+{
+    // "eslint.autoFixOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    //是否在保存的时候自动fix eslint
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    //确定校验准则
+    "eslint.validate": [
+        "typescript",
+        "html",
+        "typescriptvue"
+    ],
+    "eslint.options": { //指定vscode的eslint所处理的文件的后缀
+        "extensions": [
+            ".ts",
+            ".js",
+            ".tsx"
+        ]
+    },
+}
