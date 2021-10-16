@@ -1,6 +1,15 @@
-1. npm link / yarn link 前，先看看package.json里面有没有配置下面这个
-```json
-"bin": {
-    "sp-cli": "./bin/cli.js"
-},
-```
+搭建一个简单的脚手架
+安装
+
+# install it globally
+
+$ npm install -g nfw-cli
+
+# or yarn
+
+$ yarn global add nfw-cli
+使用
+Quick Start
+$ zr create <name> [-f|--force]
+Options
+-f, --force: Overwrite if the target exists

@@ -1,12 +1,24 @@
 {
-  "name": "sp-cli",
+  "name": "nfw-cli",
   "version": "1.0.0",
   "description": "start point",
   "main": "index.js",
   "bin": {
-    "sp-cli": "./bin/cli.js"
+    "nfw-cli": "./bin/cli.js"
   },
-  "author": "Xu Wenqiang",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "author": {
+    "name": "Xu Wenqiang",
+    "email": "972197784@qq.com"
+  },
+  "keywords": [
+    "nfw-cli",
+    "nfw",
+    "脚手架"
+  ],
   "license": "MIT",
   "dependencies": {
     "axios": "^0.20.0-0",
