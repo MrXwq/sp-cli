@@ -3,11 +3,16 @@
 
 # install it globally
 
+```shell
 $ npm install -g nfw-cli
+```
 
 # or yarn
 
+```shell
 $ yarn global add nfw-cli
+```
+
 使用
 Quick Start
 $ zr create <name> [-f|--force]
